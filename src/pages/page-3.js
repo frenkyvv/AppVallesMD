@@ -1,27 +1,29 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby"
 import Layout from "../components/layout/layout"
+import "bootstrap/dist/css/bootstrap.min.css"
 import SEO from "../components/layout/seo"
-import DopaminaForm from "../components/formulas/DopaminaForm"
-import Boton2ap from "../components/botones/Boton2"
+import { Link } from "gatsby"
+import DobutaminaForm from "../components/formulas/DobutaminaForm"
 import Foot from "../components/sections/Footer"
+import Boton2ap from "../components/botones/Boton2"
 
-function SecondPage() {
+function Pagina3() {
   return (
     <Layout>
       <Wrapper>
         <ContentWrapper>
-          <SEO title="Dopamina" />
+          <SEO title="Dobutamina" />
           <TextWrapper>
-            <Title>Dosis de Dopamina</Title>
+            <Title>Dosis de Dobutamina</Title>
+            <Line />
             <Description>
-              Formula para calcular la dosis de Dopamina
+              Formula para calcular la dosis de Dobutamina
             </Description>
           </TextWrapper>
           <br />
           <FormWrapper>
-            <DopaminaForm />
+            <DobutaminaForm />
           </FormWrapper>
         </ContentWrapper>
         <BackBut>
@@ -29,15 +31,15 @@ function SecondPage() {
             <Boton2ap text="Back" />
           </Link>
         </BackBut>
+        <FooterDiv>
+          <Foot />
+        </FooterDiv>
       </Wrapper>
-      <FooterDiv>
-        <Foot />
-      </FooterDiv>
     </Layout>
   )
 }
 
-export default SecondPage
+export default Pagina3
 
 const Wrapper = styled.div`
   height: 800px;
@@ -61,7 +63,6 @@ const Description = styled.p`
   font-size: 13px;
   line-height: 130%;
   margin-top: 10px;
-  border-top: 2px solid black;
 `
 const FormWrapper = styled.div`
   display: flex;
@@ -74,7 +75,7 @@ const BackBut = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 50px;
 `
 const FooterDiv = styled.div`
@@ -82,4 +83,9 @@ const FooterDiv = styled.div`
   align-items: center;
   justify-content: center;
   padding-top: 100px;
+`
+const Line = styled.div`
+  height: 3px;
+  background-color: black;
+  width: 350px;
 `
