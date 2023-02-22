@@ -28,23 +28,23 @@ export default function Main() {
           <Link to="/page-4">
             <Boton2ap text="Deficit de Agua" />
           </Link>
-          <Link to="/page-4">
-            <Boton2ap text="Deficit de Agua" />
+          <Link to="/page-5">
+            <Boton2ap text="Bicarbonato" />
           </Link>
-          <Link to="/page-4">
-            <Boton2ap text="Deficit de Agua" />
+          <Link to="/page-6">
+            <Boton2ap text="Sodio Corregido" />
           </Link>
-          <Link to="/page-4">
-            <Boton2ap text="Deficit de Agua" />
+          <Link to="/page-7">
+            <Boton2ap text="Alteplase" />
           </Link>
-          <Link to="/page-4">
-            <Boton2ap text="Deficit de Agua" />
+          <Link to="/page-8">
+            <Boton2ap text="Osmolaridad" />
           </Link>
-          <Link to="/page-4">
-            <Boton2ap text="Deficit de Agua" />
+          <Link to="/page-9">
+            <Boton2ap text="SIR" />
           </Link>
-          <Link to="/page-4">
-            <Boton2ap text="Deficit de Agua" />
+          <Link to="/page-10">
+            <Boton2ap text="Hiperton" />
           </Link>
         </ButtonWrapper>
       </InnerWrapper>
